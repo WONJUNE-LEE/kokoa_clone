@@ -1,3 +1,3 @@
 # KOKOA_CLONE
 
-My first CSS, html practive project
+My first CSS, html practice project
