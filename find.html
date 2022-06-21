@@ -25,8 +25,8 @@
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
-          <a class="nav__a" href="friends.html"
-            ><i class="fa-solid fa-user fa-xl"></i
+          <a class="nav__a" href="friends.html">
+            <i class="fa-regular fa-user fa-xl"></i
           ></a>
         </li>
         <li class="nav__btn">
@@ -50,57 +50,56 @@
     </nav>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <span><i class="fa-solid fa-music fa-lg"></i></span>
-        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+        <span><i class="fa-solid fa-gear fa-lg"></i> </span>
+        <div class="screen-header__notificationdot"></div>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fa-solid fa-circle-info"></i>Friends' Names Display
-      <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friends-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="burger.jpg"
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Gome</h4>
-            <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
-          </div>
+    <main class="main-screen">
+      <div class="find-icons">
+        <div class="find-icons__icon">
+          <i class="fa-solid fa-qrcode fa-xl"></i>
+          <span>QR Code</span>
         </div>
-        <div class="user-component__column"></div>
+        <div class="find-icons__icon">
+          <i class="fa-solid fa-address-book fa-xl"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="fa-solid fa-fingerprint fa-xl"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="fa-solid fa-envelope fa-xl"></i>
+          <span>Invite</span>
+        </div>
       </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fa-solid fa-chevron-up fa-xs"></i>
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended Friends</h6>
+        <span>You have no recommended friends.</span>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4 class="open-chat__title">Open Chat</h4>
+          <span
+            >Go to Openchat Home <i class="fa-solid fa-chevron-right fa-xs"></i
+          ></span>
         </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="burger.jpg"
-              class="user-component__avatar user-component__avatar--sm"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                Channel
-              </h4>
-              <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#BTS</h5>
+            <h6 class="open-post__hashtags">#bts#army#friends</h6>
+            <div class="open-post__members">
+              <img src="burger.jpg" />
+              <span class="open-post__member-count">802 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
             </div>
           </div>
-          <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fa-solid fa-chevron-right fa-xs"></i>
-            </div>
-          </div>
+          <div class="open-post__column"></div>
         </div>
       </div>
     </main>
